@@ -1,0 +1,20 @@
+
+
+:root {
+  --bg:#f3f6f4;
+  --acc:#1f6f78;
+  --acc2:#17565d;
+}
+
+.top {
+  background:#1d2a31;
+  border-bottom:3px solid #4fb3bd;
+}
+
+.card {
+  border-radius:14px;
+}
+
+.btn {
+  border-radius:999px;
+}

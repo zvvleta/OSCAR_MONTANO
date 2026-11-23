@@ -1,0 +1,22 @@
+
+
+:root {
+  --bg:#f4f5ee;
+  --acc:#5b7a2f;
+  --acc2:#46611f;
+  --ink:#26301c;
+  --line:#dadfc9;
+}
+
+.top {
+  background:#2b3a1f;
+  border-bottom:3px solid #c28a2c;
+}
+
+nav button.on {
+  background:#5b7a2f;
+}
+
+.card {
+  border-top:4px solid #c28a2c;
+}

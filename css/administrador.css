@@ -1,0 +1,21 @@
+
+:root {
+  --bg:#f0f1f7;
+  --acc:#3b4a8c;
+  --acc2:#2d3a70;
+  --ink:#1c2140;
+  --line:#d5d8e6;
+}
+
+.top {
+  background:#1c2140;
+  border-bottom:3px solid #5d6fc0;
+}
+
+nav button.on {
+  background:#3b4a8c;
+}
+
+.card {
+  border-left:4px solid #5d6fc0;
+}
