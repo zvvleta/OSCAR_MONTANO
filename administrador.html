@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panel del administrador · Oscar Montano</title>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/administrador.css">
+</head>
+<body data-rol="Administrador">
+  <header class="top">
+    <strong class="brand">Oscar Montano</strong>
+    <nav id="nav" aria-label="Módulos"></nav>
+    <span id="who" class="who"></span>
+    <button class="btn ghost" id="logout">Salir</button>
+  </header>
+  <main id="view" tabindex="-1"></main>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <script src="js/core.js"></script>
+  <script src="js/comun.js"></script>
+  <script src="js/administrador.js"></script>
+  <script src="js/modulo.js"></script>
+</body>
+</html>

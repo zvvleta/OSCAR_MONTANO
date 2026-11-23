@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oscar Montano · Iniciar sesión</title>
+  <link rel="stylesheet" href="css/base.css">
+</head>
+<body>
+  <section class="login">
+    <form id="loginForm" class="login-card" autocomplete="off">
+      <h1>Oscar Montano</h1>
+      <p class="muted">Tienda de ropa · Ventas e inventario</p>
+      <label>Usuario<input id="lu" required></label>
+      <label>Contraseña<input id="lp" type="password" required></label>
+      <p id="lerr" class="msg err" hidden></p>
+      <button class="btn" type="submit">Iniciar sesión</button>
+      <p class="hint">Prueba: admin / admin123 · cajero / cajero123 · encargado / encargado123</p>
+    </form>
+  </section>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+  <script src="js/core.js"></script>
+  <script src="js/auth.js"></script>
+</body>
+</html>
